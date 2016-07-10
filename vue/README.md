@@ -1,8 +1,10 @@
 
 # How to run
 
-**Node.js should be installed on machine**
+### Install Node
 
-1.  CD into this directory (vue)  
-2.  Then type: npm start
+```cd vue```
+
+```npm start```
+
 

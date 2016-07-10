@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "homepage": "https://github.com/tdavisjr/githubfirst100",
+  "authors": [
+    "Tyrone Davis <tdavisjr@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0",
+    "fetch": "^1.0.0",
+    "es6-promise": "^3.2.2"    
+  }
+}

@@ -1,8 +1,8 @@
-
 # How to run
 
 ### Install Node
 
-```cd backbone```
+```cd react```
 
 ```npm start```
+
