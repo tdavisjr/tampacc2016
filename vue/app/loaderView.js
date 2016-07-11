@@ -1,7 +1,7 @@
-define(function(require, exports, module) {
+define(function(require) {
   var Vue = require("vue");
 
-  module.exports = Vue.extend({
+  return Vue.extend({
     template: '#loader',
     props: ['isLoading'],
 

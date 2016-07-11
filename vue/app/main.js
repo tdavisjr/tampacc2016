@@ -1,13 +1,11 @@
-var modules = [
-    'vue',
-    'fetch',
-    'pageHeaderView',
-    'loaderView',
-    'usersView'
-
-];
-
-require(modules, function(Vue, fetch, PageHeaderView, LoaderView, UsersView) {
+require([
+'vue',
+'fetch',
+'pageHeaderView',
+'loaderView',
+'usersView'
+], 
+function(Vue, fetch, PageHeaderView, LoaderView, UsersView) {
 
     Vue.component('page-header', PageHeaderView);
     Vue.component('loader', LoaderView);
