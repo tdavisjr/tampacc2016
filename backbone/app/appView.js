@@ -1,8 +1,8 @@
-define(function(require, exports, module){
+define(function(require){
     var Backbone = require("backbone");
     var UserView = require("userView");
     
-    module.exports = Backbone.View.extend({
+    return Backbone.View.extend({
         el: '#app',
 
         events: {

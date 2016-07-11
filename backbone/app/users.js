@@ -1,7 +1,7 @@
-define(function(require, exports, module){
+define(function(require){
     var Backbone = require("backbone");
 
-    module.exports = Backbone.Collection.extend({
+    return Backbone.Collection.extend({
         url: 'https://api.github.com/users'
     });
     

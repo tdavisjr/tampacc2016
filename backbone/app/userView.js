@@ -1,10 +1,10 @@
-define(function (require, exports, module) {
+define(function (require) {
     var Backbone = require("backbone");
     var _        = require("underscore");
 
-    module.exports = Backbone.View.extend({
+    return Backbone.View.extend({
         tagName: 'div',
-        className: 'col-md-1',
+        className: 'col-sm-1',
 
         template: _.template($('#user-row').html()),
 
