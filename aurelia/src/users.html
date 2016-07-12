@@ -1,0 +1,16 @@
+<template>
+    <div class="row">
+    <div class="col-sm-1" repeat.for="user of users">
+        <div class="center-block">
+            <div>
+                <a href.bind="user.html_url" target="_blank">
+                    <img src.bind="user.avatar_url" class="img-circle"/>
+                </a>
+            </div>
+            <div>
+                <a href.bind="user.html_url" target="_blank">${user.login}</a>
+            </div>        
+        </div>
+    </div>          
+    </div>
+</template>
