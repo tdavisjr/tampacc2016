@@ -3,5 +3,9 @@
         "target": "ES6",
         "module": "system",
         "experimentalDecorators": true
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "jspm_packages"
+    ]
 }
