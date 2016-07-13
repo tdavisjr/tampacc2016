@@ -1,6 +1,5 @@
 import {inject} from 'aurelia-framework';
-import {HttpClient} from 'aurelia-fetch-client';
-
+import {HttpClient} from 'aurelia-http-client';
 
 @inject(HttpClient)
 export class Users {
@@ -11,10 +10,10 @@ export class Users {
     }
 
     activate(app) {
-        return this.http.fetch('https://api.github.com/users')
-            .then(response => response.json())
-            .then(users => {
-                this.users = users;
+        return this.http
+            .get('https://api.github.com/users')
+            .then(resp => {
+                this.users = resp.content;
             });
     }
 }
