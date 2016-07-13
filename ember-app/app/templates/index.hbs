@@ -1,0 +1,17 @@
+
+<div class="row">
+  {{#each model as |user|}}
+  <div class="col-sm-1">
+      <div class="center-block">
+          <div>
+              <a href="{{user.html_url}}" target="_blank">
+                  <img src="{{user.avatar_url}}" class="img-circle"/>
+              </a>
+          </div>
+          <div>
+              <a href="{{user.html_url}}" target="_blank">{{user.login}}</a>
+          </div>
+      </div>
+  </div>
+  {{/each}}
+</div>
