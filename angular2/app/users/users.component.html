@@ -1,0 +1,12 @@
+<div class="col-md-1" *ngFor="let user of users">
+    <div class="center-block">
+        <div>
+            <a href="{{user.html_url}}" target="_blank">
+                <img src="{{user.avatar_url}}" class="img-circle" style="width:80px;height:80px;" />
+            </a>
+        </div>
+        <div>
+            <a href="{{user.html_url}}" target="_blank">{{user.login}}</a>
+        </div>
+    </div>
+</div>
