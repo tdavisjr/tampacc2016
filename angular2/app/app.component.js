@@ -9,9 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var header_component_1 = require('../app/header/header.component');
-var loader_component_1 = require('../app/loader/loader.component');
-var users_component_1 = require('../app/users/users.component');
 var users_service_1 = require('../app/users/users.service');
 var AppComponent = (function () {
     function AppComponent(usersService) {
@@ -31,11 +28,6 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             template: "\n  <my-header></my-header>\n  <my-loader *ngIf=\"isLoading\"></my-loader>\n  <my-users *ngIf=\"!isLoading\" [users]=\"users\"></my-users>  \n  ",
-            directives: [
-                header_component_1.HeaderComponent,
-                loader_component_1.LoaderComponent,
-                users_component_1.UsersComponent
-            ],
             providers: [
                 users_service_1.UsersService
             ]
