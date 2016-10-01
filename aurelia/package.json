@@ -12,14 +12,14 @@
     "dev": "lite-server"
   },
   "devDependencies": {
-    "jspm": "0.16.39",
+    "jspm": "0.16.46",
     "lite-server": "^2.2.2"
   },
   "jspm": {
     "dependencies": {
-      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-rc.1.0.1",
-      "aurelia-framework": "npm:aurelia-framework@^1.0.0-rc.1.0.2",
-      "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-rc.1.0.0"
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.5",
+      "aurelia-http-client": "npm:aurelia-http-client@^1.0.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
