@@ -19,7 +19,7 @@ var App = function (_React$Component) {
     function App(props) {
         _classCallCheck(this, App);
 
-        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(App).call(this, props));
+        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
         _this.state = { users: [], loaded: false };
         return _this;
@@ -90,7 +90,7 @@ var Loader = exports.Loader = function (_React$Component) {
     function Loader() {
         _classCallCheck(this, Loader);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(Loader).apply(this, arguments));
+        return _possibleConstructorReturn(this, (Loader.__proto__ || Object.getPrototypeOf(Loader)).apply(this, arguments));
     }
 
     _createClass(Loader, [{
@@ -133,7 +133,7 @@ var User = exports.User = function (_React$Component) {
     function User() {
         _classCallCheck(this, User);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(User).apply(this, arguments));
+        return _possibleConstructorReturn(this, (User.__proto__ || Object.getPrototypeOf(User)).apply(this, arguments));
     }
 
     _createClass(User, [{
@@ -195,7 +195,7 @@ var UserList = exports.UserList = function (_React$Component) {
     function UserList() {
         _classCallCheck(this, UserList);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(UserList).apply(this, arguments));
+        return _possibleConstructorReturn(this, (UserList.__proto__ || Object.getPrototypeOf(UserList)).apply(this, arguments));
     }
 
     _createClass(UserList, [{
