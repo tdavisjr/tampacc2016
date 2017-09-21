@@ -8,10 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var http_1 = require('@angular/http');
-var core_1 = require('@angular/core');
-require('rxjs/add/operator/map');
-var UsersService = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var http_1 = require("@angular/http");
+var core_1 = require("@angular/core");
+require("rxjs/add/operator/map");
+var UsersService = /** @class */ (function () {
     function UsersService(http) {
         this.http = http;
     }
@@ -21,8 +22,8 @@ var UsersService = (function () {
             .map(function (resp) { return resp.json(); });
     };
     UsersService = __decorate([
-        core_1.Injectable(), 
-        __metadata('design:paramtypes', [http_1.Http])
+        core_1.Injectable(),
+        __metadata("design:paramtypes", [http_1.Http])
     ], UsersService);
     return UsersService;
 }());

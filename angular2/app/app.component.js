@@ -8,9 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var users_service_1 = require('../app/users/users.service');
-var AppComponent = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var users_service_1 = require("../app/users/users.service");
+var AppComponent = /** @class */ (function () {
     function AppComponent(usersService) {
         this.usersService = usersService;
         this.isLoading = true;
@@ -31,8 +32,8 @@ var AppComponent = (function () {
             providers: [
                 users_service_1.UsersService
             ]
-        }), 
-        __metadata('design:paramtypes', [users_service_1.UsersService])
+        }),
+        __metadata("design:paramtypes", [users_service_1.UsersService])
     ], AppComponent);
     return AppComponent;
 }());
