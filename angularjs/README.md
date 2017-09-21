@@ -1,7 +1,9 @@
+#Angula
+
 # How to run
 
 ### Install Node
 
-```cd angular```
+```cd angularjs```
 
 ```npm start```

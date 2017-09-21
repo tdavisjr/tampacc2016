@@ -3,7 +3,7 @@
 
 ### Install Node
 
-```cd angular2```
+```cd angular```
 
 ```npm start```
 
